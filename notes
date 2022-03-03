@@ -1,0 +1,4 @@
+Factories
+
+php artisan make:factory CourseFactory --model=Course
+\App\Models\Course::factory()->count(10)->create()
